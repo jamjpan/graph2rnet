@@ -1,4 +1,4 @@
-###graph2rnet
+#graph2rnet
 
 Convert graph (node, edge files) into an "rnet" file.
 
@@ -17,12 +17,12 @@ plot 'output.rnet' using 4:5:($6-$4):($7-$5) w vectors nohead lt rgb 'black' lw 
 
 Node file should contain node id, latitude, and longitude columns for each node.
 Edge file should contain the id of the from and to nodes for each edge.
-Edge file is allowed to have a header. Use -r to tell graph2rnet to skip the
+Edge file is allowed to have a header. Use `-r` to tell graph2rnet to skip the
 header row.
 
 The columns format and column separator can be specified in the options.
 
-Check graph2rnet -h for usage.
+Check `graph2rnet -h` for usage.
 
 Example:
 ```
