@@ -1,4 +1,4 @@
-#graph2rnet
+# graph2rnet
 
 Convert graph (node, edge files) into an "rnet" file.
 
